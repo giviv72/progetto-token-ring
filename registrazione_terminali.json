@@ -1,0 +1,87 @@
+[
+  [
+    0.1202394329998242,
+    5,
+    "{\"time_ns\": 1794503527964568157, \"node\": 3, \"event\": \"PRONTO\", \"port\": 5103, \"successor\": 4}\r\n"
+  ],
+  [
+    0.12456852600007551,
+    3,
+    "{\"time_ns\": 1794503527968792226, \"node\": 1, \"event\": \"PRONTO\", \"port\": 5101, \"successor\": 2}\r\n"
+  ],
+  [
+    0.13558117599995967,
+    4,
+    "{\"time_ns\": 1794503527979913554, \"node\": 2, \"event\": \"PRONTO\", \"port\": 5102, \"successor\": 3}\r\n"
+  ],
+  [
+    0.13706748499998866,
+    6,
+    "{\"time_ns\": 1794503527981542435, \"node\": 4, \"event\": \"PRONTO\", \"port\": 5104, \"successor\": 1}\r\n"
+  ],
+  [
+    3.0219294210000953,
+    3,
+    "avvia\r\n"
+  ],
+  [
+    3.0413785880000432,
+    3,
+    "{\"time_ns\": 1794503530880864381, \"node\": 1, \"event\": \"TOKEN_CREATO\", \"balance\": \"1000.00 EUR\"}\r\n{\"time_ns\": 1794503530884397899, \"node\": 1, \"event\": \"TOKEN_INOLTRO\", \"successor\": 2, \"balance\": \"1000.00 EUR\"}\r\n"
+  ],
+  [
+    3.041384788999949,
+    4,
+    "{\"time_ns\": 1794503530884828099, \"node\": 2, \"event\": \"TOKEN_RICEVUTO\", \"balance\": \"1000.00 EUR\", \"lap\": 1}\r\n{\"time_ns\": 1794503530884902673, \"node\": 2, \"event\": \"INIZIO_TRANSAZIONE\", \"sequence\": 1, \"operation\": \"prelievo\", \"amount\": \"200.00 EUR\", \"before\": \"1000.00 EUR\"}\r\n"
+  ],
+  [
+    5.0407341969998924,
+    4,
+    "{\"time_ns\": 1794503532885098132, \"node\": 2, \"event\": \"FINE_TRANSAZIONE\", \"sequence\": 1, \"status\": \"ESEGUITA\", \"after\": \"800.00 EUR\"}\r\n"
+  ],
+  [
+    5.041121848999865,
+    4,
+    "{\"time_ns\": 1794503532885600090, \"node\": 2, \"event\": \"TOKEN_INOLTRO\", \"successor\": 3, \"balance\": \"800.00 EUR\"}\r\n"
+  ],
+  [
+    5.04194018599992,
+    5,
+    "{\"time_ns\": 1794503532885862462, \"node\": 3, \"event\": \"TOKEN_RICEVUTO\", \"balance\": \"800.00 EUR\", \"lap\": 1}\r\n{\"time_ns\": 1794503532885949921, \"node\": 3, \"event\": \"INIZIO_TRANSAZIONE\", \"sequence\": 2, \"operation\": \"deposito\", \"amount\": \"100.00 EUR\", \"before\": \"800.00 EUR\"}\r\n"
+  ],
+  [
+    7.043271293000089,
+    5,
+    "{\"time_ns\": 1794503534886629097, \"node\": 3, \"event\": \"FINE_TRANSAZIONE\", \"sequence\": 2, \"status\": \"ESEGUITA\", \"after\": \"900.00 EUR\"}\r\n{\"time_ns\": 1794503534887454988, \"node\": 3, \"event\": \"TOKEN_INOLTRO\", \"successor\": 4, \"balance\": \"900.00 EUR\"}\r\n"
+  ],
+  [
+    7.045596296999975,
+    6,
+    "{\"time_ns\": 1794503534889087516, \"node\": 4, \"event\": \"TOKEN_RICEVUTO\", \"balance\": \"900.00 EUR\", \"lap\": 1}\r\n"
+  ],
+  [
+    7.0462730529998225,
+    6,
+    "{\"time_ns\": 1794503534890696695, \"node\": 4, \"event\": \"INIZIO_TRANSAZIONE\", \"sequence\": 3, \"operation\": \"prelievo\", \"amount\": \"500.00 EUR\", \"before\": \"900.00 EUR\"}\r\n"
+  ],
+  [
+    9.052266486999997,
+    6,
+    "{\"time_ns\": 1794503536895704400, \"node\": 4, \"event\": \"FINE_TRANSAZIONE\", \"sequence\": 3, \"status\": \"ESEGUITA\", \"after\": \"400.00 EUR\"}\r\n"
+  ],
+  [
+    9.054953955999736,
+    6,
+    "{\"time_ns\": 1794503536898923317, \"node\": 4, \"event\": \"TOKEN_INOLTRO\", \"successor\": 1, \"balance\": \"400.00 EUR\"}"
+  ],
+  [
+    9.055244685000162,
+    6,
+    "\r\n"
+  ],
+  [
+    9.060850253999888,
+    3,
+    "{\"time_ns\": 1794503536900948030, \"node\": 1, \"event\": \"TOKEN_RICEVUTO\", \"balance\": \"400.00 EUR\", \"lap\": 1}\r\n{\"time_ns\": 1794503536901016430, \"node\": 1, \"event\": \"DEMO_COMPLETATA\", \"balance\": \"400.00 EUR\", \"transactions\": 3}\r\n"
+  ]
+]
