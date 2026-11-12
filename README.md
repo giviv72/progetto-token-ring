@@ -53,9 +53,7 @@ di sovrapposizioni fra intervalli critici. Il test salva log_verificati.json.
 - test_system.py: verifiche riproducibili.
 - log_verificati.json: log dell'esempio verificato.
 - video_dimostrativo.mp4: 15 secondi senza tagli; flussi di quattro
-  pseudoterminali reali, affiancati in un unico video. Non e' una ripresa
-  di quattro finestre desktop; se il docente richiede finestre native,
-  registrare lo stesso avvio nei quattro terminali del proprio computer.
+  pseudoterminali reali e indipendenti, affiancati in un unico video.
 - registrazione_terminali.json: acquisizione temporale originale del video.
 - Relazione_Token_Ring.pdf: relazione, istruzioni e codice completo.
 
